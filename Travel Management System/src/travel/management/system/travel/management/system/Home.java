@@ -227,11 +227,7 @@ public class Home extends JFrame{
         JMenuItem mi15 = new JMenuItem("ABOUT");
 	m7.add(mi15);
         
-        mi15.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent ae){
-                new About().setVisible(true);
-            }
-	});
+        
         
         
         
